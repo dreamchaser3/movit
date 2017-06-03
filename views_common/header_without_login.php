@@ -23,13 +23,11 @@ require_once("../api/api_function.php");
 
   <nav class="white">
     <div class="nav-wrapper">
-      <form>
         <div class="input-field">
-          <input id="search" type="search" placeholder="Search another location">
+          <input name = "location" id="search" type="text" placeholder="Search another location" style = "color: black">
           <label class="label-icon" for="search"><i class="material-icons" style="color: black">search</i></label>
           <i class="material-icons">close</i>
         </div>
-      </form>
     </div>
   </nav>
 

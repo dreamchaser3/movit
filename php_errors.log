@@ -1,0 +1,153 @@
+[03-Jun-2017 14:05:54 UTC] PHP Notice:  Undefined index: searchBox in /home/ubuntu/workspace/views_locationinfo/index.php on line 158
+[03-Jun-2017 14:05:54 UTC] PHP Stack trace:
+[03-Jun-2017 14:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 14:06:17 UTC] PHP Notice:  Undefined index: searchBox in /home/ubuntu/workspace/views_locationinfo/index.php on line 159
+[03-Jun-2017 14:06:17 UTC] PHP Stack trace:
+[03-Jun-2017 14:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 14:41:39 UTC] PHP Notice:  Undefined index: searchBox in /home/ubuntu/workspace/views_locationinfo/index.php on line 159
+[03-Jun-2017 14:41:39 UTC] PHP Stack trace:
+[03-Jun-2017 14:41:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:00:07 UTC] PHP Notice:  Undefined index: place in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:00:07 UTC] PHP Stack trace:
+[03-Jun-2017 17:00:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:01:54 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:01:54 UTC] PHP Stack trace:
+[03-Jun-2017 17:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:01:54 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:01:54 UTC] PHP Stack trace:
+[03-Jun-2017 17:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:04:38 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:04:38 UTC] PHP Stack trace:
+[03-Jun-2017 17:04:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:04:38 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:04:38 UTC] PHP Stack trace:
+[03-Jun-2017 17:04:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:05:16 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:05:16 UTC] PHP Stack trace:
+[03-Jun-2017 17:05:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:05:16 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:05:16 UTC] PHP Stack trace:
+[03-Jun-2017 17:05:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:08:23 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:08:23 UTC] PHP Stack trace:
+[03-Jun-2017 17:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:08:23 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:08:23 UTC] PHP Stack trace:
+[03-Jun-2017 17:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:08:30 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:08:30 UTC] PHP Stack trace:
+[03-Jun-2017 17:08:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:08:30 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:08:30 UTC] PHP Stack trace:
+[03-Jun-2017 17:08:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:08:32 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:08:32 UTC] PHP Stack trace:
+[03-Jun-2017 17:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:08:32 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:08:32 UTC] PHP Stack trace:
+[03-Jun-2017 17:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:34 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:34 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:34 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:34 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:34 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:34 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:34 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:34 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:35 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:35 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:35 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:35 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:35 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:35 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:35 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:35 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:35 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:35 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:35 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:35 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:36 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:36 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:37 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:37 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:37 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:37 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:45 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:45 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:45 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:45 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:45 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:45 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:45 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:45 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:49 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:49 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:49 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:49 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:50 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:11:50 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:11:50 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:11:50 UTC] PHP Stack trace:
+[03-Jun-2017 17:11:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:17:30 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:17:30 UTC] PHP Stack trace:
+[03-Jun-2017 17:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:17:30 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:17:30 UTC] PHP Stack trace:
+[03-Jun-2017 17:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:17:32 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:17:32 UTC] PHP Stack trace:
+[03-Jun-2017 17:17:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:17:32 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:17:32 UTC] PHP Stack trace:
+[03-Jun-2017 17:17:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:24:53 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:24:53 UTC] PHP Stack trace:
+[03-Jun-2017 17:24:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:24:53 UTC] PHP Notice:  Undefined index: lng in /home/ubuntu/workspace/views_locationinfo/index.php on line 153
+[03-Jun-2017 17:24:53 UTC] PHP Stack trace:
+[03-Jun-2017 17:24:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[03-Jun-2017 17:25:52 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
+[03-Jun-2017 17:25:52 UTC] PHP Stack trace:
+[03-Jun-2017 17:25:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
