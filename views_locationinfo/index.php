@@ -215,6 +215,12 @@ include "../views_common/footer.php"
         }
       });
       map.fitBounds(bounds);
+      // Add onClick event to pass parameters and link to another page.
+      markers.forEach(function(marker){
+        marker.addListener('click', function() {
+          window.location = "/views_locationinfo?lat=" + places[0].geometry.location.lat() +"&lng="+ places[0].geometry.location.lng();
+        });
+      });
     });
   }
 </script>
