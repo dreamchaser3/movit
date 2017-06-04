@@ -2,14 +2,18 @@
 include "../views_common/header_with_login.php";
 //글쓰기 FAB
 include "../views_common/fixed_action_btn.php";
-
+if(!isset($_GET['post_id'])){
+	?><script>history.go(-1);</script><?php
+	exit;
+}
 $results = get_post($_GET['post_id']);
-
+if(!$results){
+	?><script>history.go(-1);</script><?php
+	exit;
+}
 ?>
 
-
 <!--Post View-->
-
 <div class="container">
 	<div class="section">
 		  <div class="row">

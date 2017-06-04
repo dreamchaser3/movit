@@ -1,6 +1,8 @@
 <?php
 include "../views_common/header_without_login.php";
 
+$movie_name = $_GET['moviename'];
+$director_name = isset($_GET['directorname']) ? $_GET['directorname'] : null;
 $results = json_decode(search_movie($_GET['moviename']), true);
 if($results['total'] === 1){
   $result_item = $results['items'][0];
@@ -73,12 +75,25 @@ else{
       <!--   Related / Carousel -->  
 
       <div class="row">
-          <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
-            <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
-            <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
-            <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
-            <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
+          <?php
+          if(isset($director_name)){
+              $related_results = get_posts_by_movie_name($movie_name, $director_name);
+          }
+          else{
+              $related_results = get_posts_by_movie_name($movie_name, "");
+          }
+          if(count($related_results) > 0){
+              ?>
+              <div class="carousel">
+              <?php
+              foreach($related_results as $result){
+                  echo '<a class="carousel-item" href="../views_post/index.php?post_id='.$result['id'].'"><img src="'.$result['post_img_url'].'"></a>'; 
+              }
+              ?>
+              </div>
+              <?php
+          }
+          ?>
           </div>
       </div>
 

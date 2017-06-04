@@ -153,13 +153,20 @@ function get_post($post_id){
 }
 
 //영화 이름으로 포스트 가져오는 함수
-function get_posts_by_moive_name($movie_name, $director){
+function get_posts_by_movie_name($movie_name, $director){
     try{
         $conn = pdo_sql_connect();
-        $query = SELECT_POST_BY_MOVIE_NAME_AND_DIRECTOR;
-        $stmt = $conn->prepare($query);
-        $result = $stmt->execute(array($movie_name, $director));
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        if(isset($director)){
+            $query = SELECT_POST_BY_MOVIE_NAME_AND_DIRECTOR;
+            $stmt = $conn->prepare($query);
+            $result = $stmt->execute(array($movie_name, $director));
+        }
+        else{
+            $query = SELECT_POST_BY_MOVIE_NAME;
+            $stmt = $conn->prepare($query);
+            $result = $stmt->execute(array($movie_name));
+        }      
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
     catch(PDOException $e){
         return "Fail : ".$e;
@@ -187,7 +194,7 @@ function get_posts_by_boundary($lat, $lng, $distance){
         $query = SELECT_POST_BY_LOCATION_RADIUS;
         $stmt = $conn->prepare($query);
         $result = $stmt->execute(array($lat, $lng, $lat, $distance));
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
     catch(PDOException $e){
         return "Fail : ".$e;
