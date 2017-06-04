@@ -45,10 +45,10 @@ else{
       </li>
 
       <li>
-        <img src=<?php echo $result_item['img']; ?>> <!-- random image -->
+        <img src=<?php if(isset($result_item['img'])){echo $result_item['img'];} ?>> <!-- random image -->
         <div class="caption right-align">
           <h3>Detailed Info</h3>
-          <h5 class="light grey-text text-lighten-3"> <?php echo $result_item['story']; ?></h5>
+          <h5 class="light grey-text text-lighten-3"> <?php if(isset($result_item['story'])){echo $result_item['story'];} ?></h5>
         </div>
       </li>
 
@@ -98,30 +98,16 @@ include_once ("../views_common/fixed_action_btn.php");
 include "../views_common/footer.php";
 ?>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="../js/materialize.min.js"></script>
-  <script src="../js/init.js"></script>
-    <script>
-      
+<script type="text/javascript" src="../js/materialize.min.js"></script>
+<script src="../js/init.js"></script>
+<script>
     $(document).ready(function(){
     //init
-
-
     $('.modal').modal();
     $('.carousel').carousel();
-    $('.slider').slider({full_width: true, interval: 3000});
+    $('.slider').slider({full_width: false, interval: 10000});
     });
-
-
-
     $(".button-collapse").sideNav();
     $('.chips').material_chip();
-    $('.parallx').parallx();
-
-
-
-
-
-
-
-    </script>
+    $('.parallax').parallax();
+</script>

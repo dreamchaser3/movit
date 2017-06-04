@@ -120,6 +120,25 @@ function make_reply($user_id, $post_id, $content){
 }
 
 //포스트 아이디로 포스트 가져오는 함수
+function update_post($post_id, $title, $content){
+    try{
+        $conn = pdo_sql_connect();
+        $query = "UPDATE post SET title = ?, content = ? WHERE id = ?";
+        $stmt = $conn->prepare($query);
+        $result = $stmt->execute(array($title, $content, $post_id));
+        if($result){
+            return "Success";
+        }
+        else{
+            return "Fail";
+        }
+    }
+    catch(PDOException $e){
+        return "Fail : ".$e;
+    }
+}
+
+//포스트 아이디로 포스트 가져오는 함수
 function get_post($post_id){
     try{
         $conn = pdo_sql_connect();
