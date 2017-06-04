@@ -1,6 +1,6 @@
 
 <?php
-include "../views_common/header_without_login.php"
+include "../views_common/header_with_login.php"
 ?>
 <!--index banner 1: Map/Search Bar -->
 

@@ -135,7 +135,7 @@ $(document).ready(function(){
                 alert(json.error);
             }
             else{
-                if(window.locatio == "../views_beforelogin/index.php"){
+                if(window.location.href.indexOf(window.location.protocol+"//"+window.location.host+"/views_beforelogin/index.php") != -1){
                     window.location = "../views_afterlogin/index.php";
                 }
                 else{
