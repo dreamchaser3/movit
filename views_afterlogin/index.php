@@ -336,9 +336,9 @@ include "../views_common/footer.php";
   }
   function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     if(browserHasGeolocation){
-      window.alert('Error on geolocation');
+     // window.alert('Error on geolocation');
     }else{
-      window.alert('The browser doesn\'t support geolocaton service. Please use another browser.');
+      //window.alert('The browser doesn\'t support geolocaton service. Please use another browser.');
     }
   }
   // Find the address with coordinates.
@@ -348,10 +348,10 @@ include "../views_common/footer.php";
         if (results[1]) {
           $("#search2").attr("placeholder", results[1].formatted_address);
         } else {
-          window.alert('No results found');
+          //window.alert('No results found');
         }
       } else {
-        window.alert('Geocoder failed due to: ' + status);
+        //window.alert('Geocoder failed due to: ' + status);
       }
     });
   }
