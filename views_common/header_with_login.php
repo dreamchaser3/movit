@@ -153,7 +153,7 @@ $(document).ready(function(){
                 alert(json.error);
             }
             else{
-                location.reload();
+                window.location = "../views_afterlogin/index.php";
             }
         })
         .fail(function(request, error){

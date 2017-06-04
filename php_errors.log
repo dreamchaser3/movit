@@ -151,3 +151,51 @@
 [03-Jun-2017 17:25:52 UTC] PHP Notice:  Undefined index: lat in /home/ubuntu/workspace/views_locationinfo/index.php on line 152
 [03-Jun-2017 17:25:52 UTC] PHP Stack trace:
 [03-Jun-2017 17:25:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_locationinfo/index.php:0
+[04-Jun-2017 06:01:11 UTC] PHP Warning:  include(../views_common/header_with_logout.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views_post/index.php on line 3
+[04-Jun-2017 06:01:11 UTC] PHP Stack trace:
+[04-Jun-2017 06:01:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 06:01:11 UTC] PHP Warning:  include(): Failed opening '../views_common/header_with_logout.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views_post/index.php on line 3
+[04-Jun-2017 06:01:11 UTC] PHP Stack trace:
+[04-Jun-2017 06:01:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 06:05:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/views_post/index.php on line 89
+[04-Jun-2017 06:09:56 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 06:09:56 UTC] PHP Stack trace:
+[04-Jun-2017 06:09:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 06:09:56 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:7
+[04-Jun-2017 06:15:24 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 06:15:24 UTC] PHP Stack trace:
+[04-Jun-2017 06:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 06:15:24 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:7
+[04-Jun-2017 06:46:45 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/ubuntu/workspace/views_post/index.php on line 8
+[04-Jun-2017 06:46:56 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 06:46:56 UTC] PHP Stack trace:
+[04-Jun-2017 06:46:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 06:46:56 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:6
+[04-Jun-2017 06:53:15 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 06:53:15 UTC] PHP Stack trace:
+[04-Jun-2017 06:53:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 06:53:15 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:6
+[04-Jun-2017 07:07:01 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 07:07:01 UTC] PHP Stack trace:
+[04-Jun-2017 07:07:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 07:07:01 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:6
+[04-Jun-2017 07:07:29 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 07:07:29 UTC] PHP Stack trace:
+[04-Jun-2017 07:07:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 07:07:29 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:6
+[04-Jun-2017 07:07:53 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 07:07:53 UTC] PHP Stack trace:
+[04-Jun-2017 07:07:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 07:07:53 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:6
+[04-Jun-2017 07:25:19 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 07:25:19 UTC] PHP Stack trace:
+[04-Jun-2017 07:25:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 07:25:19 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:10
+[04-Jun-2017 07:29:22 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 07:29:22 UTC] PHP Stack trace:
+[04-Jun-2017 07:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 07:29:22 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:10
+[04-Jun-2017 07:30:21 UTC] PHP Notice:  Undefined index: post_id in /home/ubuntu/workspace/api/get_replies.php on line 4
+[04-Jun-2017 07:30:21 UTC] PHP Stack trace:
+[04-Jun-2017 07:30:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views_post/index.php:0
+[04-Jun-2017 07:30:21 UTC] PHP   2. include() /home/ubuntu/workspace/views_post/index.php:10

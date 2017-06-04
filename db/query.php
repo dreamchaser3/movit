@@ -19,3 +19,5 @@ const SELECT_POST_BY_LOCATION_RADIUS = "SELECT *,
 const SELECT_ALL_POST = "SELECT * FROM post";
 
 const SELECT_REPLY = "SELECT * FROM reply WHERE post_id = ?";
+
+const SELECT_USER_BY_USER_ID = "SELECT * FROM user WHERE id = ?";

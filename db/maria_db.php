@@ -203,5 +203,18 @@ function get_replies($post_id){
     }
 }
 
+// Find the user by user_id
+function get_user_by_id($id){
+    try{
+        $conn = pdo_sql_connect();
+        $query = SELECT_USER_BY_USER_ID;
+        $stmt = $conn->prepare($query);
+        $result = $stmt->execute(array($id));
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+    catch(PDOException $e){
+        return "Fail : ".$e;
+    }
+}
 
 ?>

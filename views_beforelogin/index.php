@@ -159,7 +159,6 @@ $(document).ready(function(){
             }
             else{
               console.log("success");
-              location.reload();
             }
         })
         .fail(function(request, error){
