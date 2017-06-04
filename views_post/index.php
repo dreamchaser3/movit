@@ -101,6 +101,9 @@ if(!$results){
 				    </li>
 				<?php }?>
 			  </ul>
+				<?php
+				if(isset($_SESSION['id'])){
+				?>
 			  <ul class="collection">
 			  	<!-- Comment Form-->
 			    <li class="collection-item avatar">
@@ -115,6 +118,8 @@ if(!$results){
 			      </div>
 			    </li>
 			  </ul>
+				<?php
+				}?>
 		</div>
 	
 	</div>

@@ -158,7 +158,7 @@ $(document).ready(function(){
                 alert(json.error);
             }
             else{
-              console.log("success");
+              window.location = "../views_afterlogin/index.php";
             }
         })
         .fail(function(request, error){

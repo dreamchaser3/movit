@@ -135,7 +135,12 @@ $(document).ready(function(){
                 alert(json.error);
             }
             else{
-                window.location = "../views_afterlogin/index.php";
+                if(window.locatio == "../views_beforelogin/index.php"){
+                    window.location = "../views_afterlogin/index.php";
+                }
+                else{
+                    location.reload();
+                }                
             }
         })
         .fail(function(request, error){
