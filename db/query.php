@@ -8,6 +8,8 @@ const INSERT_REPLY = "INSERT INTO reply (user_id, post_id, content) VALUES (?, ?
 
 const SELECT_POST = "SELECT post.*, user.username FROM post, user WHERE post.id = ? AND user.id = post.user_id";
 
+const SELECT_POST_BY_MOVIE_NAME = "SELECT * FROM post WHERE movie_name = ?";
+
 const SELECT_POST_BY_MOVIE_NAME_AND_DIRECTOR = "SELECT * FROM post WHERE movie_name = ? AND director_name = ?";
 
 const SELECT_POST_BY_LOCATION_NAME = "SELECT * FROM post WHERE location_name = ?";
