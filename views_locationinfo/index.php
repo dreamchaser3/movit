@@ -144,7 +144,7 @@ include "../views_common/footer.php";
       // Add onClick event to pass parameters and link to another page.
       markers.forEach(function(marker){
         marker.addListener('click', function() {
-          window.location = "/views_locationinfo?lat=" + places[0].geometry.location.lat() +"&lng="+ places[0].geometry.location.lng();
+          window.location = "/views_locationinfo?lat=" + marker.position.lat() +"&lng="+ marker.position.lng();
         });
       });
     });
