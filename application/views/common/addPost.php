@@ -7,8 +7,8 @@ if ($logined) {
         <i class="large material-icons">mode_edit</i>
     </a>
     <ul>
-        <li><a class="btn-floating deep-purple lighten-4"><i class="material-icons">place</i></a></li>
-        <li><a class="btn-floating deep-purple lighten-3"><i class="material-icons">movie</i></a></li>
+        <li><a class="btn-floating deep-purple lighten-4" href="/"><i class="material-icons">place</i></a></li>
+        <li><a class="btn-floating deep-purple lighten-3" href="/"><i class="material-icons">movie</i></a></li>
         <li><a class="btn-floating deep-purple lighten-2" href="/feed"><i class="material-icons">dashboard</i></a></li>
         <li><a class="btn-floating deep-purple modal-trigger" href="#modal3"><i class="material-icons">library_add</i></a>
         </li>
