@@ -45,8 +45,8 @@ if ($logined) {
                     <div class="divider"></div>
                 </li>
                 <li><a class="subheader">Search</a></li>
-                <li><a class="waves-effect" href="/#index-banner"><i class="material-icons">place</i>Search by Location</a></li>
-                <li><a class="waves-effect" href="/#search-movie"><i class="material-icons">movie</i>Search by Movie</a></li>
+                <li><a class="waves-effect" href="/"><i class="material-icons">place</i>Search by Location</a></li>
+                <li><a class="waves-effect" href="/"><i class="material-icons">movie</i>Search by Movie</a></li>
                 <li>
                     <!-- LogOut Button -->
                     <a class="waves-effect waves-light btn deep-purple lighten-2" href="/api/logout">LogOut</a>
